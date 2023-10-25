@@ -120,7 +120,6 @@ footer {
 .banner {
     text-align: center;
     padding: 150px 0;
-    background-image: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
     background-position: center;
     opacity: 0.7; /* Reduced opacity to make it more transparent */
