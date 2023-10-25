@@ -1,0 +1,150 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.section-dark {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.banner {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.project {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.project-image {
+    flex: 1;
+    text-align: center;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.project-info {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #fff; 
+    color: #333; 
+    text-align: center;
+    padding: 20px 0;
+}
+#contact a {
+    color: #fff; /* Change text color to white */
+    text-decoration: none;
+}
+:focus {
+    outline: 2px solid #007BFF; /* Adjust the color and style as needed */
+}
+.banner {
+    text-align: center;
+    padding: 150px 0;
+    background-image: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7; /* Reduced opacity to make it more transparent */
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff; /* Changed text color to white */
+}
+
+.banner p {
+    font-size: 18px;
+    color: #fff; /* Changed text color to white */
+}
+.section-dark {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0; /* Increase the padding to add space between sections */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; /* Add padding to the container to space the content from the edges */
+}
